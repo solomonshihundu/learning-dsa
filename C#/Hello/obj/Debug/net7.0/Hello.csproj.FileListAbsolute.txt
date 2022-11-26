@@ -1,0 +1,15 @@
+D:\Shihundu\Repos\C#\Hello\bin\Debug\net7.0\Hello.exe
+D:\Shihundu\Repos\C#\Hello\bin\Debug\net7.0\Hello.deps.json
+D:\Shihundu\Repos\C#\Hello\bin\Debug\net7.0\Hello.runtimeconfig.json
+D:\Shihundu\Repos\C#\Hello\bin\Debug\net7.0\Hello.dll
+D:\Shihundu\Repos\C#\Hello\bin\Debug\net7.0\Hello.pdb
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.csproj.AssemblyReference.cache
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.AssemblyInfoInputs.cache
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.AssemblyInfo.cs
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.csproj.CoreCompileInputs.cache
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.dll
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\refint\Hello.dll
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.pdb
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\Hello.genruntimeconfig.cache
+D:\Shihundu\Repos\C#\Hello\obj\Debug\net7.0\ref\Hello.dll

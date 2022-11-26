@@ -1,0 +1,21 @@
+from string import ascii_lowercase 
+
+def rot13(message):
+    for x in message:
+        charIndex = 0
+        output = ""
+        if x.isalpha():
+            asciiIndex = ord(x)
+            print(asciiIndex)
+            newIndex = asciiIndex + 13
+            newChar  = chr(newIndex)
+            output + newChar
+            print(newChar)
+        else:
+            output + x
+
+    print(output)
+
+str = "OoohhH!"
+rot13(str)
+
