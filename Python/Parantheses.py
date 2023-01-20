@@ -39,7 +39,7 @@ def valid_parentheses(string):
     return stack == []
 
 
-input = ""  # ())(
+input = "())(" #"hi(hi)()" #"())("  # ())(
 #input = "hi(hi)()"
 
 print(valid_parentheses(input))
