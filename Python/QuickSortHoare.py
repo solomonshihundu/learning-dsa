@@ -62,16 +62,22 @@ def partition(start,end,elements):
 @time_it
 def quick_sort(start,end,elements):
     #This process occurs as long as the start and end indecies haven't crossed
-    #and if so would mean that the entier array has been sorted.
+    #and if so would mean that the array has been sorted.
     if start < end:
+        #PI holds the end index once the pivot has been rightfully placed
+        # thus mark the upper and lower bounds of the respective partions 
+        # and sub partions
         pi = partition(start,end,elements)
         quick_sort(start,pi-1,elements)
         quick_sort(pi+1,end,elements)
     
 
 if __name__ == '__main__':
+    
+    #Initialize the test data
     gen = Generator(1,10)
     elements = gen.generate_data("RAND")
+    
     print(elements)
     quick_sort(0,len(elements) -1,elements)
     print(elements)
