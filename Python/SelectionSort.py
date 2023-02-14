@@ -15,8 +15,10 @@ def selection_sort(arr):
         min_index = i
 
         #Inner loop traverses the array starting from the second element, checking if the
-        #element in the current index is less than the intially defines min value.
-        #if so then the minimun index is updated to the current index. 
+        #element in the current index is less than the initially defines min value .i.e first 
+        #value in array
+        #if so then the current value becomes the min value and swaped with min the initial
+        #min value thus min_index is updated to current index
         for j in range(min_index+1,size):
             if arr[j] < arr[min_index]:
                 min_index = j
@@ -31,7 +33,19 @@ def selection_sort(arr):
 
 
 if __name__ == "__main__":
-    data_set = [2, 4, 6, 3, 9, 8, 5, 1, 7]
-    print(data_set)
-    selection_sort(data_set)
-    print(data_set)
+    #Define different test cases
+    data_set = [   
+        [ 3, 9, 8],
+        [2, 4],
+        [2, 34, 6, 13, 9, 8],
+        [9],
+        [5, 1, 7],
+        [2, 14, 6, 3, 49, 8, 5, 1, 27],
+        []
+    ]
+
+    for elements in data_set:
+        print("#########################################")
+        print(elements)
+        selection_sort(elements)
+        print(elements)
