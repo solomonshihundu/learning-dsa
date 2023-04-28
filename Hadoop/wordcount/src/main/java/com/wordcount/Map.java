@@ -44,7 +44,7 @@ public class Map extends Mapper<LongWritable, Text, Text, IntWritable>{
             /*
              * 
              * Iterate through the input array this sets the output of the loop
-             * function as every occurance of every world word as the key together with a count of one
+             * function as every occurance of every word as the key together with a count of one
              * as the value. 
              */
             for(String word : words){
